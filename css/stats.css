@@ -2,7 +2,7 @@
   margin:auto;
 }
 
-#space-invader{
-  object-fit: cover;
-  object-position: 100% 0;
+#images{
+  width: 100%;
+  height: auto;
 }
