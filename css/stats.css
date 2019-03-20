@@ -1,3 +1,8 @@
 .card-group{
   margin:auto;
 }
+
+#space-invader{
+  object-fit: cover;
+  object-position: 100% 0;
+}
