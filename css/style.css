@@ -1,17 +1,32 @@
-.img {
+img {
   width: auto;
 }
 
-.card-group:hover {
+.card-group > a {
   text-decoration: none;
 }
 
-.header {
- font-size: 30px;
- color: #FFFFFF;
- border: 1px dashed orange;
- position: fixed;
- height: 150px;
- width: 100%;
- text-align: center;
+header {
+  font-size: 40px;
+  color: black;
+  border: 1px solid #AAAAAA;
+  height: 75px;
+  max-width:950px;
+  text-align: center;
+  margin: 0 auto;
+  position:sticky;
+
+}
+
+#page-wrap2 {
+  max-width:950px;
+  height:100%;
+  margin: 0 auto;
+}
+#linkedin {
+  position:absolute;
+  right: 50px;
+  top:9px;
+  width: 40px;
+  height: 40px;
 }
