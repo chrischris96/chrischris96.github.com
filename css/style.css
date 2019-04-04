@@ -11,7 +11,7 @@ header {
   color: black;
   border: 1px solid #AAAAAA;
   height: 75px;
-  max-width:950px;
+  max-width:auto;
   text-align: center;
   margin: 0 auto;
   position:sticky;
@@ -19,7 +19,7 @@ header {
 }
 
 #page-wrap2 {
-  max-width:950px;
+  max-width:50%;
   height:100%;
   margin: 0 auto;
 }
