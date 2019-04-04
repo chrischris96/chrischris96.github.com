@@ -15,14 +15,18 @@ header {
   text-align: center;
   margin: 0 auto;
   position:sticky;
-
+  background-color: MintCream;
+}
+body{
+  background-color: MintCream;
 }
 
 #page-wrap2 {
-  max-width:50%;
-  height:100%;
+  max-width:70%;
+  /* height:auto; */
   margin: 0 auto;
 }
+
 #linkedin {
   position:absolute;
   right: 50px;
