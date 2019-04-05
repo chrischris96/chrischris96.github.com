@@ -2,35 +2,63 @@ img {
   width: auto;
 }
 
-.card-group > a {
+.bg-light > a {
   text-decoration: none;
 }
-
+.cp-hd{
+  margin:9px;
+}
 header {
   font-size: 40px;
-  color: black;
+  color: white;
   border: 1px solid #AAAAAA;
   height: 75px;
   max-width:auto;
   text-align: center;
   margin: 0 auto;
   position:sticky;
-  background-color: MintCream;
+  background-color: #202020;
 }
+
+.sticky-top{
+  font-size: 40px;
+  color: white;
+  border: 1px solid #AAAAAA;
+  height: 75px;
+  max-width:auto;
+  text-align: center;
+  margin: 0 auto;
+  position:sticky;
+  background-color: #202020;
+}
+
 body{
   background-color: MintCream;
 }
-
+footer{
+  text-align: center;
+}
 #page-wrap2 {
-  max-width:70%;
-  /* height:auto; */
+  max-width:900px;
+  height:100%;
   margin: 0 auto;
 }
 
 #linkedin {
   position:absolute;
   right: 50px;
-  top:9px;
+  top:16px;
   width: 40px;
   height: 40px;
+}
+#retiro{
+  width: 40%
+}
+#images{
+  height:160px!important;
+  width:270px!important;
+}
+
+#heading {
+  text-decoration: none;
 }
