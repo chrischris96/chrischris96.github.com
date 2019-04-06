@@ -21,7 +21,7 @@ header {
 }
 
 .sticky-top{
-  width: 100vw;
+  width: 100%;
   font-size: 40px;
   color: white;
   border: 1px solid #AAAAAA;
@@ -63,5 +63,8 @@ footer{
   text-decoration: none;
 }
 .this-me{
-  width:100vw;
+  width: 100% !important;
+}
+.proj{
+width: 100% !important;
 }
