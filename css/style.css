@@ -62,3 +62,9 @@ footer{
 #heading {
   text-decoration: none;
 }
+nav{
+  width: 100vw;
+}
+.this-me{
+  width:100vw;
+}
