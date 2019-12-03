@@ -4,21 +4,8 @@
 <head>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137714907-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-137714907-1');
-</script>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-2381193527615204",
-    enable_page_level_ads: true
-  });
-</script>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <title>Chris Plitz</title>
@@ -31,14 +18,19 @@
   <nav class="sticky-top">
     <div class="cp-hd">
       <a href="/">
-      <h1>Chris Plitz - Projects overview</h1>
+        <h1>Chris Plitz - Projects overview</h1>
       </a>
         <a href="/">
           <img id="homeicon" class="card-img-top" src="/images/home.png">
         </a>
-      <a href="https://www.linkedin.com/in/christian-plitz-303180101/">
-      <img id="linkedin" class="card-img-top" src="/images/linkedin.png" alt="Card image cap">
+      <a href="https://www.linkedin.com/in/christian-plitz-303180101/" onclick="document.getElementById('contents1').style.cssText = ''">
+        <img id="linkedin" class="card-img-top" src="/images/linkedin.png" alt="Card image cap">
       </a>
+
+      <div id="contents1" style="display:none;">
+        <iframe src="https://www.linkedin.com/in/christian-plitz-303180101/" width=100%>
+      </div>
+
     </div>
   </nav>
 <main id="thisismain">
